@@ -1,6 +1,8 @@
-1) Run Hadoop Code
+#Big Data Analytics Final
 
-For you to run the Hadoop code, you can either compile the code into a jar using maven, or download the jar file from this link: https://www.dropbox.com/s/h4nw5qixdspbdxq/BigDataFinal-0.0.1-SNAPSHOT.jar?dl=0
+###Run Hadoop Code
+
+For you to run the Hadoop code, you can either compile the code into a jar using maven (mvn package), or download the jar file from this link: https://www.dropbox.com/s/h4nw5qixdspbdxq/BigDataFinal-0.0.1-SNAPSHOT.jar?dl=0
 
 To use the same samples I did, you can download the tar file from https://www.dropbox.com/s/445qgn16lu235uj/samples.tar?dl=0
  
@@ -13,8 +15,12 @@ The `HADOOP_OPTS` flag works to make Hadoop allocating more heap space before ru
 It is important to say that the temporary results will be stored into a results folder. If you wish to run the experiments again, you need to delete the previous results inside the results folder.
 
 
-2) Run preprocessing
+###Run preprocessing
 
 To run preprocessing, have the script to be on the same folder as the folders with the raw text files. If enabled, joblib will use 8 threads to preprocess data in parallel and store the results on a folder called processedDocuments. This resulting folder should be copied to the input directory as mentioned on the Hadoop instruction for the TF-IDF calculation part.
 
 To run it on the cluster, I had to make some changes and it won't run with joblib. Please find the code at ~/lneves/preprocess.py
+
+###Notebook
+
+To run the IPython Notebook, please run the command `ipython notebook` on the main folder of this project. The files have interactive visualizations, so I was not able to create a static version of the notebook.
