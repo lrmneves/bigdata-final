@@ -2,7 +2,7 @@
 
 ###Run Hadoop Code
 
-For you to run the Hadoop code, you can either compile the code into a jar using maven (mvn package), or download the jar file from this link: https://www.dropbox.com/s/h4nw5qixdspbdxq/BigDataFinal-0.0.1-SNAPSHOT.jar?dl=0
+For you to run the Hadoop code, you can either compile the code into a jar using maven (`mvn package`), or download the jar file from this link: https://www.dropbox.com/s/h4nw5qixdspbdxq/BigDataFinal-0.0.1-SNAPSHOT.jar?dl=0
 
 To use the same samples I did, you can download the tar file from https://www.dropbox.com/s/445qgn16lu235uj/samples.tar?dl=0
  
